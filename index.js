@@ -1,6 +1,6 @@
 const swipper=new Swiper(".swiper",{
     autoplay:{delay:3000},
-    effect:"flip",
+    effect:"swip",
     loop:true,
     pagination:{
         el:".swiper-pagination"
@@ -36,48 +36,48 @@ window.sr=ScrollReveal({reset:true});
      sr.reveal(".car1",{
          duration:1000,
          distance:"10%",
-         origin:"left",
+         origin:"bottom",
          delay:500
      });
      sr.reveal(".car2",{
          duration:1000,
-         distance:"15%",
-         origin:"left",
+         distance:"10%",
+         origin:"bottom",
          delay:1000
      });
      sr.reveal(".car3",{
          duration:1000,
-         distance:"15%",
-         origin:"left",
+         distance:"10%",
+         origin:"bottom",
          delay:1500
      });
      sr.reveal(".car4",{
          duration:1000,
-         distance:"15%",
-         origin:"left",
+         distance:"10%",
+         origin:"bottom",
          delay:2000
      });
      sr.reveal("#find",{
          duration:1000,
-         distance:"100%",
+         distance:"10%",
          origin:"bottom",
          delay:500
      });
      sr.reveal("#dis",{
          duration:1000,
-         distance:"150%",
+         distance:"15%",
          origin:"bottom",
          delay:500
      });
      sr.reveal("#findl",{
          duration:1000,
-         distance:"200%",
+         distance:"20%",
          origin:"bottom",
          delay:500
      });
      sr.reveal("#location",{
          duration:1000,
-         distance:"150%",
+         distance:"15%",
          origin:"right",
          delay:500
      });
