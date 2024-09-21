@@ -617,3 +617,242 @@ ion-icon{
     }
 }
 
+@media  (max-width:412px) {
+
+    /*{border: 1px solid black;}*/
+    
+    #sear{
+        display: flex;
+        flex-direction: column;
+        justify-content:space-between;
+        padding: 10px;
+        align-items: center;
+        height: 27vh;
+        width: 69vw;
+        font-size: 0.9rem;
+        background-color: white;
+        box-shadow: 0px 0px 10px -3px  black;
+    }
+    
+    #s{
+        display: none;
+        width: 10px;
+    }
+    .searbox{
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        height: auto;
+        font-size: 1rem;
+    }
+    #sear input{
+        
+        width: 200px;
+    }
+    .head1{
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        height: 130px;
+        font-size: 2.3rem;
+        font-family:syncopate;
+    }
+    .carimg{
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        height: 225px;
+        padding: 10px;
+        overflow: hidden;
+        
+    }
+    #carimg{
+        height: 28vh;
+        width:67vw;
+        
+    }
+    .home{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .maincont{
+        height: 700px;
+        width: 100vw;
+        background-image: url(mainbg.jpeg);
+        background-size: cover;
+        
+    }
+    #sear div{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        width: 50vw;
+    }
+    .container{
+        display: flex;
+        justify-content:end;
+        height: 70px;
+        gap: 30px;
+        
+    }
+    .container h1{
+        font-size: 1.5rem;
+    }
+    .containerr{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    #car1{
+        height: 60vh;
+        width: 59vw;
+        border-radius: 10px;
+        position: absolute;
+    }
+    #ccar1{
+        height: 60vh;
+        width: 59vw;
+        position: relative;
+        overflow: hidden;
+    }
+    #ncar{
+        position: absolute;
+        background-image: linear-gradient(to bottom right,rgba(0,0,0,1),rgba(0,0,0,.1),rgba(0,0,0,.75));
+        color: white;
+        height: 60vh;
+        width: 59vw;
+        font-size: 1.5rem;
+        padding: 10px;
+         font-family:syncopate;
+    }
+    .cont1,.cont2{
+    
+        height: 100vh;
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: auto;
+        gap: 10px;
+    }
+    .cont3{
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding: auto;
+        
+    }
+    #find{
+        font-family:syncopate;
+        font-size: 2rem;
+        width: 400px;
+        
+    }
+    .cont3 div{
+        height: 25vh;
+        width: 70vw;
+        border-radius: 10px;
+        font-size: 3rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #dis{
+        width: 80vw;
+
+    }
+    #location{
+        height: 400px;
+        width: 400px;
+    }
+    #findl{
+        height: 6vh;
+        background-color: black;
+        color: white;
+        border: none;
+        font-size: 1rem;
+        border-radius: 5px;
+    }
+    .cardss{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        width: 100vw;
+        height: 190vh;
+    }
+    .cards{
+        width: 75vw;
+        height: 70vh;
+        padding-left:30px;
+        overflow: hidden;
+    
+    }
+    .spg{
+        height: 230vh;
+    }
+    .cards img{
+        width: 70vw;
+    }
+    #logo{
+        height: 25vh;
+        width: 25vw;
+    }
+    .pcr{
+        height: 45vh;
+        width: 90vw;
+        border-radius: 20px;
+        transform: translateY(-160px);
+        background-color:rgb(255, 189, 68);
+        padding: 50px;
+        gap: 100px;
+        display: flex;
+    }
+    #phn{
+        transform: translateY(-159px);
+        
+        height: 60vh;
+        width: 40vw;
+       
+    }
+    .stay{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    th{
+        width: 19vw;
+        height: 11vh;
+        font-family:syncopate;
+        font-size:0.9rem;
+    }
+    td{
+        color: grey;
+        height: 8vh;
+        
+    }
+    ion-icon{
+        font-size: 2rem;
+    }
+    #icon{
+        height: 7vh;
+        width: 8vw;
+        background-color:rgb(255, 189, 68);
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+    }
+}
+
