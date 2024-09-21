@@ -617,6 +617,7 @@ ion-icon{
     }
 }
 
+
 @media  (max-width:360px) {
 
     
@@ -807,7 +808,7 @@ ion-icon{
     
     }
     .spg{
-        height: 230vh;
+        height: 170vh;
     }
     .cards img{
         height: 60vw;
@@ -895,5 +896,8 @@ ion-icon{
 #slideimg{
         height: 15vh;
         width: 80vw;
+    }
+    .blank{
+        height: 50vh;
     }
 }
