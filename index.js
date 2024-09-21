@@ -101,19 +101,19 @@ window.sr=ScrollReveal({reset:true});
      });
      sr.reveal("#precr",{
          duration:1000,
-         distance:"100%",
+         distance:"5%",
          origin:"bottom",
          delay:100
      });
      sr.reveal("#gio",{
          duration:1000,
-         distance:"150%",
+         distance:"2%",
          origin:"bottom",
          delay:200
      });
      sr.reveal("#phn",{
          duration:1000,
-         distance:"20%",
+         distance:"5%",
          origin:"right",
          delay:200
      });
