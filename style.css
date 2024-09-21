@@ -797,18 +797,18 @@ ion-icon{
         justify-content: start;
         align-items: center;
         width: 100vw;
-        height: 150vh;
+        height: 210vh;
         padding: 20px;
     }
     .cards{
         width: 90vw;
-        height: 80vh;
+        height: 70vh;
         
         overflow: hidden;
     
     }
     .spg{
-        height: 170vh;
+        height: 250vh;
     }
     .cards img{
         height: 60vw;
@@ -837,8 +837,8 @@ ion-icon{
         font-size: 1.5rem;
     }
     #phn{
-        transform: translate(-90px,-66px);
-        height: 25vh;
+        transform: translate(-90px,-71px);
+        height: 37vh;
         width: 40vw;
        
     }
